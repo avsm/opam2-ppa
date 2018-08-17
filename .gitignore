@@ -1,1 +1,4 @@
 *.tar.xz
+opam_2.0.0~*
+opam-full-2.0.0/
+.gnupg
