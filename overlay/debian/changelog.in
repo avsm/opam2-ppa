@@ -1,4 +1,4 @@
-opam (2.0.0~ppa1-1) unstable; urgency=medium
+opam (2.0.0-0%%PPA%%~%%DISTRO%%) %%DISTRO%%; urgency=medium
 
   * Initial release
 
