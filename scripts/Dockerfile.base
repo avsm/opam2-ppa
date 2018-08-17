@@ -1,4 +1,4 @@
-FROM debian:stable
+FROM ubuntu
 RUN apt-get -y update
 RUN apt-get -y install build-essential ocaml-native-compilers devscripts dh-make
 ENV USER root

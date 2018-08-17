@@ -9,4 +9,4 @@ rm -rf opam-full-2.0.0
 tar -zxf $file
 cp -r overlay/* opam-full-2.0.0/debian/
 cd opam-full-2.0.0
-debuild
+debuild -S -sa
