@@ -13,6 +13,16 @@ tags:
 
 - [avsm/ppa-opam-experimental](https://launchpad.net/~avsm/+archive/ubuntu/ppa-opam-experimental) is where the bleeding edge snapshots are uploaded. You should only need this if you are the maintainer of this repository.
 
+### Relationship to upstream
+
+Note that these are *not* upstream packages of the same high quality
+as maintained in Debian.  They are simply the minimal packages to get
+the latest version of opam into your hands, normally for installing for
+CI services such as Travis or CircleCI without having to go through source.
+
+Eventually, opam2 will land in the upstream Debian and Ubuntu repositories
+and these PPAs will no longer be required.
+
 ### Running It
 
 You shouldn't need to run these scripts, but if you do, then you will need a
