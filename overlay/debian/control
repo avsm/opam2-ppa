@@ -2,7 +2,7 @@ Source: opam
 Section: ocaml
 Priority: optional
 Maintainer: Anil Madhavapeddy <anil@recoil.org>
-Build-Depends: debhelper (>= 9), ocaml-nox (>= 4.2.3~), rsync, unzip, openssl, git, curl, ocaml-native-compilers, bubblewrap
+Build-Depends: debhelper (>= 9), ocaml-nox (>= 4.2.3~), rsync, unzip, openssl, git, curl, ocaml-native-compilers
 Standards-Version: 3.9.8
 Homepage: https://opam.ocaml.org
 Vcs-Git: https://github.com/ocaml/opam.git
@@ -10,7 +10,8 @@ Vcs-Browser: https://github.com/ocaml/opam.git
 
 Package: opam
 Architecture: any
-Depends: rsync, unzip, git, curl
+Depends: rsync, unzip, git, curl, bubblewrap
+Replaces: opam-docs (<< 2)
 Description: a source-based package manager for OCaml.
   It supports multiple simultaneous compiler installations,
   flexible package constraints, and a Git-friendly development

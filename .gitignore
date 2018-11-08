@@ -1,5 +1,5 @@
 *.tar.xz
-opam_2.0.0-0ppa*
-opam-full-2.0.0/
+opam_2.0.*-0ppa*
+opam-full-*/
 .gnupg
 .bash_history
