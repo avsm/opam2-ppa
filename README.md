@@ -14,7 +14,7 @@ tags:
 - [avsm/ppa-opam-experimental](https://launchpad.net/~avsm/+archive/ubuntu/ppa-opam-experimental) is where the bleeding edge snapshots are uploaded. You should only need this if you are the maintainer of this repository.
 
 
-## Relationship to upstream
+## Relationship to upstream
 
 Note that these are *not* upstream packages of the same high quality
 as maintained in Debian.  They are simply the minimal packages to get
@@ -25,7 +25,7 @@ Eventually, opam2 will land in the upstream Debian and Ubuntu repositories
 and these PPAs will no longer be required.
 
 
-## Running It
+## Running It
 
 You shouldn't need to run these scripts, but if you do, then you will need a
 `.gnupg` directory setup to sign the Debian packages.  `scripts/build.sh` goes
