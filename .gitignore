@@ -3,3 +3,4 @@ opam_2.0.*-0ppa*
 opam-full-*/
 .gnupg
 .bash_history
+bubblewrap*

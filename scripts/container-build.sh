@@ -3,10 +3,10 @@
 set -ex
 
 targ=avsm/ppa
-ppa="ppa1"
+ppa="ppa2"
 opamver="2.0.2"
 
-for distro in bionic cosmic; do
+for distro in trusty xenial bionic cosmic; do
   v="${opamver}-0$ppa~$distro"
   file="opam_$v.orig.tar.gz"
   cp "opam_${opamver}.orig.tar.gz" $file
