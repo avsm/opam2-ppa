@@ -4,3 +4,4 @@ opam-full-*/
 .gnupg
 .bash_history
 bubblewrap*
+!bubblewrap_0.3.1.orig.tar.bz2
