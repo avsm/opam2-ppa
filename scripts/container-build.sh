@@ -3,8 +3,8 @@
 set -ex
 
 targ=avsm/ppa
-ppa="ppa2"
-opamver="2.0.2"
+ppa="ppa1"
+opamver="2.0.4"
 
 for distro in trusty xenial bionic cosmic; do
   v="${opamver}-0$ppa~$distro"

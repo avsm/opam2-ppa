@@ -1,3 +1,9 @@
+opam (2.0.4-0%%PPA%%~%%DISTRO%%) %%DISTRO%%; urgency=medium
+
+  * Release 2.0.4
+
+ -- Anil Madhavapeddy <anil@recoil.org>  Sun, 03 Feb 2018 09:44:06 +0000
+
 opam (2.0.2-0%%PPA%%~%%DISTRO%%) %%DISTRO%%; urgency=medium
 
   * Release 2.0.2
