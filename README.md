@@ -1,13 +1,8 @@
 # opam2 Ubuntu ppa scripts
 
 This repository contains shell scripts to generate binary packages
-for Ubuntu for the [opam 2.0](https://opam.ocaml.org) package manager
+for Ubuntu for the [opam 2.1](https://opam.ocaml.org) package manager
 for OCaml.
-
-Since opam2 requires sandboxing, we only build binary packages for
-the latest Ubuntu LTS (Bionic) and upwards.  We use the Ubuntu
-[personal package archive](https://launchpad.net) with the following
-tags:
 
 - [avsm/ppa](https://launchpad.net/~avsm/+archive/ubuntu/ppa) is where the latest stable releases of opam 2.x are uploaded.  This ppa is already included in the [Travis CI whitelist](https://github.com/travis-ci/apt-source-whitelist) so you can use it with non-Docker builds.
 

@@ -3,7 +3,7 @@
 set -ex
 name=opam
 ppa_address='ppa:avsm/opam'
-version=2.0.0~rc1ppa1
+version=2.1.0~rc1ppa1
 email=anil@recoil.org
 license=lgpl2
 rm -rf $name-$version

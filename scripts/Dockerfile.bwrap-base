@@ -1,7 +1,0 @@
-FROM ubuntu:bionic
-RUN apt-get -y update
-RUN apt-get -y install build-essential ocaml-native-compilers devscripts dh-make
-RUN apt-get -y install rsync
-RUN apt-get -y install bash-completion docbook-xml docbook-xsl libcap-dev libselinux1-dev pkg-config xsltproc
-ENV USER root
-WORKDIR /root

@@ -1,3 +1,9 @@
+opam (2.1.0~rc1-0%%PPA%%~%%DISTRO%%) %%DISTRO%%; urgency=medium
+
+  * Release 2.1.0 RC1
+
+ -- Anil Madhavapeddy <anil@recoil.org>  Sun, 20 Jun 2020 09:44:06 +0000
+
 opam (2.0.4-0%%PPA%%~%%DISTRO%%) %%DISTRO%%; urgency=medium
 
   * Release 2.0.4
