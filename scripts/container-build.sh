@@ -4,9 +4,9 @@ set -ex
 
 targ=avsm/ppa
 ppa="ppa1"
-opamver="2.0.4"
+opamver="2.1.0~rc1"
 
-for distro in trusty xenial bionic cosmic; do
+for distro in bionic focal groovy hirsute; do
   v="${opamver}-0$ppa~$distro"
   file="opam_$v.orig.tar.gz"
   cp "opam_${opamver}.orig.tar.gz" $file

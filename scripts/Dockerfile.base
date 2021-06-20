@@ -1,5 +1,6 @@
-FROM ubuntu:bionic
+FROM ubuntu:20.04
 RUN apt-get -y update
+ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get -y install build-essential ocaml-native-compilers devscripts dh-make
 RUN apt-get -y install rsync bubblewrap
 ENV USER root
